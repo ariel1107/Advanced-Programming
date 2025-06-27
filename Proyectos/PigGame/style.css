@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, red, rgb(240, 179, 13));
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 95%;
+  background-color: pink;
+  position: relative;
+  font-size: large;
+  text-align: center;
+}
+
+img {
+  width: 45px;
+}
+
+.left {
+  padding: 40px 50px 20px 30px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.right {
+  padding: 40px 50px 20px 30px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.score {
+  font-size: 60px;
+}
+
+div {
+  background-color: red;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 130px;
+  padding: 15px;
+  margin-bottom: 120px;
+}
+
+.jugador-activo {
+  background-color: blueviolet;
+  font-weight: bolder;
+  transition: background-color 1.5s;
+  transition: font-weight 0.5s;
+}
+.jugador-activo div {
+  color: #eee;
+  transition: color 0.5s;
+}
+
+button {
+  padding: 7px;
+  background: linear-gradient(to left, red, rgb(240, 179, 13));
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 4px 2px 1px black;
+}
+
+.hidden {
+  display: none;
+}
+
+.dices {
+  position: absolute;
+  top: 29%;
+}
+
+.new {
+  position: absolute;
+  top: 10%;
+}
+
+.roll {
+  position: absolute;
+  top: 50%;
+}
+.hold {
+  position: absolute;
+  top: 58%;
+}
