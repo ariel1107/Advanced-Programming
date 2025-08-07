@@ -105,3 +105,11 @@ button {
   position: absolute;
   top: 58%;
 }
+
+.jugador-ganador {
+  background-color: greenyellow;
+  color: brown;
+}
+.jugador-ganador .score {
+  font-size: 25px;
+}
